@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>512</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="btn_browse">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>40</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>browse</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>64</y>
+      <width>291</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Lọc </string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="btn_media_gray">
+       <property name="text">
+        <string>Trung vị xám</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="btn_mean_gray">
+       <property name="text">
+        <string>trung bình xám</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="btn_median_color">
+       <property name="text">
+        <string>Trung vị màu</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="btn_mean_color">
+       <property name="text">
+        <string>trung bình màu </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>401</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>convolution</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="3" column="7">
+      <widget class="QLineEdit" name="le_5_15"/>
+     </item>
+     <item row="4" column="0" rowspan="2" colspan="3">
+      <widget class="QPushButton" name="btn_Conv_3x3">
+       <property name="text">
+        <string>3x3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QLineEdit" name="le_5_17"/>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLineEdit" name="le_5_16"/>
+     </item>
+     <item row="5" column="7">
+      <widget class="QLineEdit" name="le_5_25"/>
+     </item>
+     <item row="5" column="5">
+      <widget class="QLineEdit" name="le_5_23"/>
+     </item>
+     <item row="6" column="4" colspan="3">
+      <widget class="QPushButton" name="btn_Conv_5x5">
+       <property name="text">
+        <string>5x5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QLineEdit" name="le_5_22"/>
+     </item>
+     <item row="4" column="6">
+      <widget class="QLineEdit" name="le_5_19"/>
+     </item>
+     <item row="4" column="7">
+      <widget class="QLineEdit" name="le_5_20"/>
+     </item>
+     <item row="5" column="3">
+      <widget class="QLineEdit" name="le_5_21"/>
+     </item>
+     <item row="4" column="5">
+      <widget class="QLineEdit" name="le_5_18"/>
+     </item>
+     <item row="5" column="6">
+      <widget class="QLineEdit" name="le_5_24"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="le_3_8"/>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="le_3_9"/>
+     </item>
+     <item row="3" column="5">
+      <widget class="QLineEdit" name="le_5_13"/>
+     </item>
+     <item row="3" column="3">
+      <widget class="QLineEdit" name="le_5_11"/>
+     </item>
+     <item row="3" column="4">
+      <widget class="QLineEdit" name="le_5_12"/>
+     </item>
+     <item row="3" column="6">
+      <widget class="QLineEdit" name="le_5_14"/>
+     </item>
+     <item row="0" column="5">
+      <widget class="QLineEdit" name="le_5_3"/>
+     </item>
+     <item row="0" column="6">
+      <widget class="QLineEdit" name="le_5_4"/>
+     </item>
+     <item row="0" column="7">
+      <widget class="QLineEdit" name="le_5_5"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLineEdit" name="le_3_4"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="le_3_5"/>
+     </item>
+     <item row="2" column="4">
+      <widget class="QLineEdit" name="le_5_7"/>
+     </item>
+     <item row="2" column="5">
+      <widget class="QLineEdit" name="le_5_8"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLineEdit" name="le_3_6"/>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLineEdit" name="le_5_6"/>
+     </item>
+     <item row="2" column="6">
+      <widget class="QLineEdit" name="le_5_9"/>
+     </item>
+     <item row="2" column="7">
+      <widget class="QLineEdit" name="le_5_10"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLineEdit" name="le_3_7"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLineEdit" name="le_3_1"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="le_3_2"/>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="le_3_3"/>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLineEdit" name="le_5_1"/>
+     </item>
+     <item row="0" column="4">
+      <widget class="QLineEdit" name="le_5_2"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>70</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>make noise</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="btn_noise">
+       <property name="text">
+        <string>Noise maker</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLineEdit" name="le_path">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>40</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>35</y>
+      <width>44</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>path </string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>512</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
